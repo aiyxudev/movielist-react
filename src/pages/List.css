@@ -1,0 +1,23 @@
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    padding: 1em;
+}
+
+button {
+    visibility: hidden;
+    width: 80%;
+    border: none;
+    padding: 2%;
+    margin: 2% 0 2% 0;
+    background-color:darkred;
+    color: white; 
+
+}
+
+.movie:hover button{
+    visibility: visible;
+} 
